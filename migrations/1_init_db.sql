@@ -5,5 +5,5 @@ CREATE TABLE "users" (
     "email" VARCHAR(50) UNIQUE,
     "password" VARCHAR(100),
     "refresh" VARCHAR(100),
-    "refresh_issued_at" TIME
+    "refresh_issued_at" TIMESTAMP
 );
